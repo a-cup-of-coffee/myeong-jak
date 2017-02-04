@@ -1,1 +1,2 @@
 scripts/blacklist/configuration.py
+scripts/core/MySQLHelper.py
