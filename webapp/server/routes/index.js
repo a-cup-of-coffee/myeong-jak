@@ -1,7 +1,7 @@
-import express from 'express';
-import post from './post';
+const express = require('express'); 
+const blacklist = require('./blacklist'); 
 
 const router = express.Router();
-router.use('/post', post);
+router.use('/blacklist', blacklist);
 
-export default router;
+module.exports = router; 
