@@ -1,4 +1,5 @@
 const express = require('express');
+const bodyParser = require("body-parser");
 const morgan = require('morgan');
 const path = require('path');
 
@@ -8,6 +9,8 @@ const app = express();
 app.use(morgan(':remote-addr - :remote-user [:date[clf]] ":method :url HTTP/:http-version" :status :res[content-length] :response-time ms'));
 
 // Custom routes 
+app.use(bodyParser.urlencoded({ extended: false }));
+app.use(bodyParser.json());
 app.use('/blacklist', require('./manage/blacklist')); 
 
 // Serve static assets
