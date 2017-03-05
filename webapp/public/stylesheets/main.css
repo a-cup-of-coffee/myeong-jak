@@ -35,22 +35,23 @@ box-shadow: 0px 0px 4px 2px rgba(0,0,0,0.1);
 
 .Core .body-height { height: auto; }
 .Core .body-height .bpad { padding: 0px 20px; }
-.Core .body-height .Window { display: inline-block; width: 100%; max-width: 800px; /* background-color: #F9F8F4; */ }
+.Core .body-height .Window { display: inline-block; width: 100%; max-width: 960px; /* background-color: #F9F8F4; */ }
 .Core .body-height .Window .header { background-color: white; padding: 20px; border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom: 1px solid #E7E0D2; font-size: 18px; }
 .Core .body-height .Window .body { background-color: #F9F8F4; padding: 20px; border-bottom-left-radius: 10px; border-bottom-right-radius: 10px; }
-.Core .body-height .Window .body .item { margin-bottom: 10px; }
-.Core .body-height .Window .body .item .options { padding: 10px 40px; }
-.Core .body-height .Window .body .item .options .option { float: left; display: inline-block; width: 20%; height: 40px; border-radius: 20px; padding: 2px; }
-.Core .body-height .Window .body .item .options .option .inner { display: inline-block; width: 100%; height: 100%; background-color: white; border: 1px solid #E7E0D2; line-height: 36px; } 
-.Core .body-height .Window .body .item .options .narrow { width: 10% !important }
-.Core .body-height .Window .body .item .options .wide { width: 50% !important }
-.Core .body-height .Window .body .item .options .emphasis .inner { border-color: #c7c1b5; background-color: #f5eee1; }
-.Core .body-height .Window .body .item .options .button { float: left; display: inline-block; height: 40px; width: 100%; background-color: #79B3D4; color: white; font-size: 14px; padding: 0px 10px; border-radius: 20px; line-height: 40px; cursor: pointer; }
-.Core .body-height .Window .body .item:nth-child(1) { margin-top: 20px; }
-.Core .body-height .Window .body input[type="text"] { height: 40px; line-height: 40px; width: 100%; margin-right: 10px; border: 1px solid #E7E0D2; font-size: 16px; outline: none; padding: 0px 20px; border-radius: 20px; }
-.Core .body-height .Window .body .half { float: left; width: 50% !important; margin-right: 0px !important; }
+.Core .body-height .Window .body .list { min-height: 400px; }
+.Core .body-height .Window .body .list .static { border-bottom: 1px solid #E7E0D2; }
+.Core .body-height .Window .body .list .row { padding: 2px 10px; }
+.Core .body-height .Window .body .list .row:nth-child(2) { margin-top: 20px; }
+.Core .body-height .Window .body .list .row .highlight { color: #79B3D4; font-weight: 600; }
+.Core .body-height .Window .body .list .row .column { }
+.Core .body-height .Window .body .list .row .review { float: right; width: 140px; }
+.Core .body-height .Window .body .list .row .review .button { display: inline-block; height: 28px; width: 100%; background-color: #bbb; color: white; font-size: 12px; padding: 0px 10px; border-radius: 20px; line-height: 28px; cursor: pointer; }
+.Core .body-height .Window .body .list .row .flexible { width: auto; overflow: hidden; }
+.Core .body-height .Window .body .list .row .flexible .text { height: 28px; line-height: 28px; }
+.Core .body-height .Window .body .list .row .flexible .wp75 { float: left; width: 70%; }
+.Core .body-height .Window .body .list .row .flexible .wp25 { float: left; width: 30%; }
+.Core .body-height .Window .body .buttons {  }
+.Core .body-height .Window .body .buttons .button { display: inline-block; height: 40px; width: 100%; background-color: #79B3D4; color: white; font-size: 14px; padding: 0px 10px; border-radius: 20px; line-height: 40px; cursor: pointer; }
 
 @media (max-width: 799px) {
-	.Core .body-height .Window .body .item .options .option { width: 50% !important; }
-	.Core .body-height .Window .body .item .options .narrow { width: 20% !important; }
 }
