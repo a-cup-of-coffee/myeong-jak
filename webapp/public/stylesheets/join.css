@@ -35,7 +35,7 @@ box-shadow: 0px 0px 4px 2px rgba(0,0,0,0.1);
 
 .Core .body-height { height: auto; }
 .Core .body-height .bpad { padding: 0px 20px; }
-.Core .body-height .Window { display: inline-block; width: 100%; max-width: 800px; /* background-color: #F9F8F4; */ }
+.Core .body-height .Window { display: inline-block; width: 100%; max-width: 400px; }
 .Core .body-height .Window .header { background-color: white; padding: 20px; border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom: 1px solid #E7E0D2; font-size: 18px; }
 .Core .body-height .Window .body { background-color: #F9F8F4; padding: 20px; border-bottom-left-radius: 10px; border-bottom-right-radius: 10px; }
 .Core .body-height .Window .body .item { margin-bottom: 10px; }
@@ -48,6 +48,7 @@ box-shadow: 0px 0px 4px 2px rgba(0,0,0,0.1);
 .Core .body-height .Window .body .item .options .button { float: left; display: inline-block; height: 40px; width: 100%; background-color: #79B3D4; color: white; font-size: 14px; padding: 0px 10px; border-radius: 20px; line-height: 40px; cursor: pointer; }
 .Core .body-height .Window .body .item:nth-child(1) { margin-top: 20px; }
 .Core .body-height .Window .body input[type="text"] { height: 40px; line-height: 40px; width: 100%; margin-right: 10px; border: 1px solid #E7E0D2; font-size: 16px; outline: none; padding: 0px 20px; border-radius: 20px; }
+.Core .body-height .Window .body .gap { margin-bottom: 40px; }
 .Core .body-height .Window .body .half { float: left; width: 50% !important; margin-right: 0px !important; }
 
 @media (max-width: 799px) {

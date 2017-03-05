@@ -34,11 +34,11 @@ box-shadow: 0px 0px 4px 2px rgba(0,0,0,0.1);
 .Core .header-height .Header .option .fa { color: white; }
 
 .Core .search-height { }
-.Core .search-height .Search { line-height: 40px; padding: 0px 80px 20px 80px; }
+.Core .search-height .Search { line-height: 40px; padding: 0px 80px 0px 80px; white-space: nowrap; }
 .Core .search-height .Search .highlight { color: #79B3D4; font-weight: 800; font-size: 16px; }
 .Core .search-height .Search .search-form { float: right; width: auto; }
-.Core .search-height .Search .search-form .search { height: 40px; line-height: 40px; width: 280px; margin-right: 10px; border: none; font-size: 16px; outline: none; padding: 0px 20px; border-radius: 20px; }
-.Core .search-height .Search .search-form .button { display: inline-block; height: 40px; background-color: #79B3D4; color: white; font-size: 14px; padding: 0px 10px; border-radius: 20px; }
+.Core .search-height .Search .search-form .search { height: 40px; line-height: 40px; width: 280px; margin-right: 10px; border: none; font-size: 16px; outline: none; padding: 0px 20px; border-radius: 20px; margin-bottom: 20px; }
+.Core .search-height .Search .search-form .button { display: inline-block; height: 40px; background-color: #79B3D4; color: white; font-size: 14px; padding: 0px 10px; border-radius: 20px; margin-bottom: 20px; }
 .Core .search-height .Search .search-form .rotate .property { margin: 0px 20px;  }
 .Core .search-height .Search .search-form .rotate .arrow { display: inline-block; }
 
@@ -47,7 +47,7 @@ box-shadow: 0px 0px 4px 2px rgba(0,0,0,0.1);
 .Core .body-height .Body .Window { float: left; display: inline-block; width: 480px; height: 240px; margin-right: 20px; margin-bottom: 20px; }
 .Core .body-height .Body .Window .row-common { padding: 0px 10px; }
 .Core .body-height .Body .Window .rows-1 { height: 120px; background-color: white; border-top-left-radius: 10px; border-top-right-radius: 10px; }
-.Core .body-height .Body .Window .rows-1 .letters { width: 200px; }
+.Core .body-height .Body .Window .rows-1 .letters { width: 200px; white-space: nowrap; }
 .Core .body-height .Body .Window .rows-1 .letters .letter { line-height: 120px; color: #666; font-size: 88px; }
 .Core .body-height .Body .Window .rows-1 .description { width: auto; vertical-align: top; padding: 25px 10px; }
 .Core .body-height .Body .Window .rows-1 .description .interpret { line-height: 28px; height: 36px; text-align: right; white-space: nowrap; }
@@ -72,7 +72,7 @@ box-shadow: 0px 0px 4px 2px rgba(0,0,0,0.1);
 		margin-right: 0px !important;  
         }
 }
-@media (min-width: 760px) and (max-width: 1159px) {
+@media (min-width: 800px) and (max-width: 1159px) {
         .Body .Window {
 		width: calc((100% - 20px) / 2) !important; 
         }
@@ -80,7 +80,7 @@ box-shadow: 0px 0px 4px 2px rgba(0,0,0,0.1);
 		margin-right: 0px !important;  
         }
 }
-@media (max-width: 759px) {
+@media (max-width: 799px) {
         .Body .Window {
 		width: 100% !important; 
 		margin-right: 0px !important;  
